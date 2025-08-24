@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shadows & Indent</title>
+  <style>
+    h1 {
+      text-shadow: 3px 3px 5px gray;   /* X, Y, blur, color */
+    }
+
+    p {
+      text-indent: 50px;              /* first line indentation */
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      background: lightblue;
+      box-shadow: 5px 5px 10px black; /* shadow outside box */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Text Shadow Example</h1>
+  <p>This paragraph shows text indentation effect.</p>
+  <div class="box">Box Shadow Example</div>
+
+</body>
+</html>
