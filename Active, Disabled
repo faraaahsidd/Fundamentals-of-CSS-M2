@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Active & Disabled Example</title>
+  <style>
+    /* Active link styling */
+    a:active {
+      color: red; 
+      font-weight: bold;
+    }
+
+    /* Disabled button styling */
+    button:disabled {
+      background-color: gray;
+      color: white;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#">Click Me (Active State)</a><br><br>
+
+  <button>Enabled Button</button>
+  <button disabled>Disabled Button</button>
+
+</body>
+</html>
