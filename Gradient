@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Gradients</title>
+  <style>
+    /* Linear Gradient */
+    .linear {
+      height: 100px;
+      background: linear-gradient(to right, red, yellow);
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Radial Gradient */
+    .radial {
+      height: 100px;
+      background: radial-gradient(circle, blue, lightblue, white);
+      text-align: center;
+      line-height: 100px;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="linear">Linear Gradient Example</div>
+  <div class="radial">Radial Gradient Example</div>
+
+</body>
+</html>
