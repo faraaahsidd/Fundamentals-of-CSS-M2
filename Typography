@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Typography</title>
+  <style>
+    h1 {
+      font-family: "Georgia", serif;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      font-family: "Arial", sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Typography Example</h1>
+  <p>
+    Typography in CSS helps make the text more readable and visually appealing. 
+    We can change font family, size, weight, spacing, and alignment to improve design.
+  </p>
+
+</body>
+</html>
