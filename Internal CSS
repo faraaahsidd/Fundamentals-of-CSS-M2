@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internal CSS Example</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    h1 {
+      color: darkblue;
+    }
+    p {
+      color: green;
+      font-size: 18px;
+    }
+    button {
+      background: orange;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Internal CSS</h1>
+  <p>This paragraph is styled using <b>internal CSS</b>.</p>
+  <button>Click Me</button>
+
+</body>
+</html>
