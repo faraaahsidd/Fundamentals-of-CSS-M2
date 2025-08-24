@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Decoration & Transform</title>
+  <style>
+    h1 {
+      text-decoration: underline;   /* underline text */
+      text-transform: uppercase;    /* make all letters CAPITAL */
+    }
+
+    p {
+      text-decoration: overline;    /* line above text */
+      text-transform: capitalize;   /* first letter of each word capital */
+    }
+
+    a {
+      text-decoration: none;        /* remove underline from links */
+      text-transform: lowercase;    /* make all letters small */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>this is a heading</h1>
+  <p>this is a paragraph with style</p>
+  <a href="#">CLICK HERE</a>
+
+</body>
+</html>
