@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Float Example</title>
+  <style>
+    img {
+      float: right; 
+      margin: 10px;
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <p>
+    <img src="https://via.placeholder.com/150" alt="Sample">
+    This paragraph has an image floated to the right. The text will wrap around the image, filling the left side of the container.
+  </p>
+
+</body>
+</html>
