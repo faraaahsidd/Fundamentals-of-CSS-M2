@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>External CSS Example</title>
+  <!-- Linking the external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to External CSS</h1>
+  <p>This paragraph is styled using <b>external CSS</b>.</p>
+  <button>Click Me</button>
+
+</body>
+</html>
+
+
+<!-- Below is another file of css (style ) which is attached in the above html file
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+h1 {
+  color: darkblue;
+}
+
+p {
+  color: green;
+  font-size: 18px;
+}
+
+button {
+  background: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
