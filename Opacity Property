@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opacity Example</title>
+  <style>
+    .box1 {
+      background: red;
+      width: 150px;
+      height: 150px;
+      opacity: 1;   /* fully visible */
+    }
+
+    .box2 {
+      background: green;
+      width: 150px;
+      height: 150px;
+      opacity: 0.5; /* 50% transparent */
+    }
+
+    .box3 {
+      background: blue;
+      width: 150px;
+      height: 150px;
+      opacity: 0.2; /* very light */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box1">Opacity 1</div>
+  <div class="box2">Opacity 0.5</div>
+  <div class="box3">Opacity 0.2</div>
+
+</body>
+</html>
