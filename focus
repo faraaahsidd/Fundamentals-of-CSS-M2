@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Example</title>
+  <style>
+    input:focus {
+      border: 2px solid blue;
+      background-color: lightyellow;
+      outline: none; /* removes default outline */
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Type here:</h3>
+  <input type="text" placeholder="Click or Tab to focus">
+
+</body>
+</html>
